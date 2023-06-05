@@ -1,2 +1,2 @@
 # WebPage
-This isa  website
+This is a  website
