@@ -1,12 +1,12 @@
 {
   "name": "webpage",
   "version": "1.0.0",
-  "description": "This isa  website",
-  "main": "index.js",
+  "description": "This is a  website",
+  "main": "screen.js",
   "type": "module",
   "scripts": {
     "build": "rollup -c",
-    "watch" : "rollup -c -w"
+    "watch": "rollup -c -w"
   },
   "keywords": [],
   "author": "",
@@ -14,5 +14,9 @@
   "devDependencies": {
     "@rollup/plugin-node-resolve": "^15.1.0",
     "rollup": "^3.23.1"
+  },
+  "dependencies": {
+    "three": "^0.153.0",
+    "web-ifc-viewer": "^1.0.216"
   }
 }
