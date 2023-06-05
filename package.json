@@ -2,7 +2,7 @@
   "name": "webpage",
   "version": "1.0.0",
   "description": "This is a  website",
-  "main": "screen.js",
+  "main": "index.js",
   "type": "module",
   "scripts": {
     "build": "rollup -c",
@@ -16,7 +16,6 @@
     "rollup": "^3.23.1"
   },
   "dependencies": {
-    "three": "^0.153.0",
     "web-ifc-viewer": "^1.0.216"
   }
 }
