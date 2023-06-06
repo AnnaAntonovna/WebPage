@@ -48,7 +48,6 @@ viewer.grid.setGrid();
 viewer.axes.setAxes();
 
 async function loadIfc(url) {
-    await viewer.IFC.setWasmPath("../../../");
     const model = await viewer.IFC.loadIfcUrl(url);
     viewer.shadowDropper.renderShadow(model.modelID);
 }
