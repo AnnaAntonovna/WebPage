@@ -196,6 +196,12 @@ a{
     border-width: 5px;
   }
 
+  #viewer-container
+  {
+    height: 50vh;
+    width: 50vw;
+  }
+
   .image{
     width: 100px;
     opacity: 1;
