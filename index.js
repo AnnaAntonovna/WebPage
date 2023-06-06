@@ -53,7 +53,7 @@ async function loadIfc(url) {
     viewer.shadowDropper.renderShadow(model.modelID);
 }
 
-loadIfc('your/IFC/path/model.ifc');
+loadIfc('./DR_2SL_Elevator Sliding Door.ifc');
 
 const params = new URLSearchParams(window.location.search);
   const modelName = params.get('model');
