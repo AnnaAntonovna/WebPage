@@ -37,3 +37,9 @@ categoryFilter.addEventListener("change", function () {
     });
 });
 
+
+const params = new URLSearchParams(window.location.search);
+  const modelName = params.get('model');
+  const modelNameElement = document.getElementById('model-name');
+  modelNameElement.textContent = modelName;
+
