@@ -17,5 +17,9 @@
   },
   "dependencies": {
     "web-ifc-viewer": "^1.0.216"
+  },
+  "peerDependencies": 
+  {
+    "three": "^0.135.0"
   }
 }
