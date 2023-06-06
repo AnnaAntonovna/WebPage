@@ -15,7 +15,3 @@ async function loadIfc(url) {
 
 loadIfc('./DR_2SL_Elevator Sliding Door.ifc');
 
-const params = new URLSearchParams(window.location.search);
-  const modelName = params.get('model');
-  const modelNameElement = document.getElementById('model-name');
-  modelNameElement.textContent = modelName;
